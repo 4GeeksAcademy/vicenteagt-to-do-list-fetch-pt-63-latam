@@ -13,6 +13,7 @@ export const ToDoList = () => {
 
     function addNewArrayElementToList() {       //* agregar task al array
         setList([...list, task])
+        setTask("")
 
     }
 
@@ -54,3 +55,4 @@ export const ToDoList = () => {
 
 }
 
+// onClick={() => eliminarTarea(index)}
