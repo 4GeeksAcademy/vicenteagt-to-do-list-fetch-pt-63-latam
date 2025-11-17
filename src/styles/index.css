@@ -30,3 +30,18 @@ input:focus {
 .styleTaskContainer:hover{
     background-color: rgba(235, 235, 235, 0.506);
 }
+
+.showAndHiddenButton{
+    opacity: 0;
+}
+
+.styleTaskContainer:hover .showAndHiddenButton{
+    opacity: 100;
+
+}
+
+.todosTittleStyle{
+    font-size: 100px;
+    color: aliceblue;
+    font-weight: 2;
+}

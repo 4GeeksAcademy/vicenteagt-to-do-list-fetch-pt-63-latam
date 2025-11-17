@@ -8,6 +8,12 @@ import { DesignToDo } from "./DesignToDo.jsx";
 const Home = () => {
 	return (
 		    <div className="container-fluid">
+				<div className="row">
+					<div className="col-2 m-auto ">
+						<h1 className="todosTittleStyle">todos</h1>
+					</div>
+
+				</div>
 <ToDoList/>
 		 </div>
 	);
