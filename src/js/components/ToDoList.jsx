@@ -30,11 +30,12 @@ export const ToDoList = () => {
 
 
     return (
-        <div>
+        <div className="row">
+        <div className="bg-success m-auto p-2 col-5 mt-2">
 
-            <div className="row mt-4">
-                <div className="col-6 m-auto">
-                    <input type="text" className="form-control" value={task} onChange={addNewTask}
+            <div className="row">
+                <div className="col-11 d-flex justify-content-center bg-black m-auto pt-2 pb-2"> 
+                    <input type="text" className="col-11" value={task} onChange={addNewTask}
                         onKeyDown={(e) => {
                             if (e.key === 'Enter') {
                                 addNewArrayElementToList();
@@ -42,21 +43,30 @@ export const ToDoList = () => {
                         }}
 
                     />
-                </div>
+                 </div> 
             </div>
 
-            <div className="row mt-4">
-                <div className="col-6 m-auto">
-                    <ul>
+            
+                    <>
                         {list.map((item, index) => (
+<div className="row mt-1">
+                <div className="col-11 m-auto bg-danger">
+                    <ul>
                             <li key={index}> {item} <button onClick={() => eliminateListElement(index)}>borrar</button></li>
-
-                        ))}
-                    </ul>
-                    <p>{list.length + " task"}</p>
-
-                </div>
+                            </ul>
+  </div>
             </div>
+                        ))}
+                    </>
+                    
+
+              
+            <div className="row">
+                         <div className="col-11 m-auto bg-black">
+                    <p>{list.length + " task"}</p>
+                    </div>
+                    </div>
+        </div>
         </div>
 
 
