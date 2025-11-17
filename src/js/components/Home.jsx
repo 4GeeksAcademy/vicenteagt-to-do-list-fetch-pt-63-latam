@@ -8,7 +8,7 @@ import { DesignToDo } from "./DesignToDo.jsx";
 const Home = () => {
 	return (
 		    <div className="container-fluid">
-<DesignToDo/>
+<ToDoList/>
 		 </div>
 	);
 };

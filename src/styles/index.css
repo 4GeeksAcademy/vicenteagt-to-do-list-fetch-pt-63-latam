@@ -17,3 +17,16 @@ input:focus {
     box-shadow: none !important;
    
 }
+
+.itemBrandStyle{
+    font-weight: 2;
+}
+
+.listItemStyle{
+    font-weight: 2;
+    font-size: 20px;
+}
+
+.styleTaskContainer:hover{
+    background-color: rgba(235, 235, 235, 0.506);
+}
