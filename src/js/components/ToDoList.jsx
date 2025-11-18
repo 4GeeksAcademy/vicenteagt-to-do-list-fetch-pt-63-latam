@@ -82,13 +82,13 @@ useEffect(() => {
                     ))}
                 </>
                 <div className={"row "+ divDescriptionNoTask}>
-                    <div className="col-12 p-2 border-top border-secondary">
-                        <p className="ps-5 pe-1 listItemStyle">No hay tareas, añadir tareas</p>
+                    <div className="col-12 p-3 border-top border-secondary">
+                        <p className="ps-5 pe-1 listItemStyle m-auto ">No hay tareas, añadir tareas</p>
                     </div>
                 </div>
                 <div className="row">
-                    <div className="col-12  m-auto border-top border-secondary paper">
-                        <p className="itemBrandStyle">{list.length + " item left"}</p>
+                    <div className="col-12  m-auto border-top border-secondary paper p-1">
+                        <p className="itemBrandStyle m-auto">{list.length + " item left"}</p>
                     </div>
                 </div>
 
