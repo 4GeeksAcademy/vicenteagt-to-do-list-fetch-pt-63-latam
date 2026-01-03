@@ -4,6 +4,7 @@ import React from "react";
 import rigoImage from "../../img/rigo-baby.jpg";
 import { ToDoList } from "./ToDoList.jsx";
 import { FetchAPI } from "./FetchAPI.jsx";
+import Api from "./Api.jsx";
 //create your first component
 const Home = () => {
 	return (
@@ -15,7 +16,7 @@ const Home = () => {
 					</div>
 
 				</div>
-<FetchAPI/>
+<Api/>
 
 		 </div>
 	);
